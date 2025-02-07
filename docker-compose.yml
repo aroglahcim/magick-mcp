@@ -1,0 +1,10 @@
+services:
+  debug:
+    image: node:22
+    entrypoint: ["npx", "-y", "@modelcontextprotocol/inspector", "index.js"]
+    working_dir: /server
+    volumes:
+      - .:/server/
+    ports:
+      - 5173:5173
+      - 3000:3000

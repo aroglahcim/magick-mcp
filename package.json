@@ -1,0 +1,22 @@
+{
+  "name": "magick-mcp",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aroglahcim",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.4.1"
+  },
+  "bin": "./index.js",
+  "type": "module",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "url": "https://github.com/aroglahcim/magick-mcp"
+  }
+}
